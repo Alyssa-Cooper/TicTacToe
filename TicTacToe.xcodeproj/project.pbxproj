@@ -14,6 +14,9 @@
 		1E9609611EDB5BBC00E1F88D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E96095F1EDB5BBC00E1F88D /* LaunchScreen.storyboard */; };
 		1E96096C1EDB5BBC00E1F88D /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E96096B1EDB5BBC00E1F88D /* TicTacToeTests.swift */; };
 		1E9609771EDB5BBC00E1F88D /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9609761EDB5BBC00E1F88D /* TicTacToeUITests.swift */; };
+		1E9609851EDB5D1C00E1F88D /* tttx.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9609841EDB5D1C00E1F88D /* tttx.png */; };
+		1E9609871EDB5D2400E1F88D /* tttboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E9609861EDB5D2400E1F88D /* tttboard.jpg */; };
+		1E9609891EDB5D3200E1F88D /* ttto.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E9609881EDB5D3200E1F88D /* ttto.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		1E9609721EDB5BBC00E1F88D /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9609761EDB5BBC00E1F88D /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		1E9609781EDB5BBC00E1F88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E9609841EDB5D1C00E1F88D /* tttx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tttx.png; sourceTree = "<group>"; };
+		1E9609861EDB5D2400E1F88D /* tttboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tttboard.jpg; sourceTree = "<group>"; };
+		1E9609881EDB5D3200E1F88D /* ttto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ttto.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				1E9609561EDB5BBC00E1F88D /* AppDelegate.swift */,
 				1E9609581EDB5BBC00E1F88D /* ViewController.swift */,
+				1E9609861EDB5D2400E1F88D /* tttboard.jpg */,
 				1E96095A1EDB5BBC00E1F88D /* Main.storyboard */,
+				1E9609881EDB5D3200E1F88D /* ttto.png */,
+				1E9609841EDB5D1C00E1F88D /* tttx.png */,
 				1E96095D1EDB5BBC00E1F88D /* Assets.xcassets */,
 				1E96095F1EDB5BBC00E1F88D /* LaunchScreen.storyboard */,
 				1E9609621EDB5BBC00E1F88D /* Info.plist */,
@@ -188,20 +197,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Alyssa Cooper";
 				TargetAttributes = {
 					1E9609521EDB5BBC00E1F88D = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					1E9609661EDB5BBC00E1F88D = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1E9609521EDB5BBC00E1F88D;
 					};
 					1E9609711EDB5BBC00E1F88D = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1E9609521EDB5BBC00E1F88D;
 					};
@@ -234,7 +246,10 @@
 			files = (
 				1E9609611EDB5BBC00E1F88D /* LaunchScreen.storyboard in Resources */,
 				1E96095E1EDB5BBC00E1F88D /* Assets.xcassets in Resources */,
+				1E9609891EDB5D3200E1F88D /* ttto.png in Resources */,
+				1E9609871EDB5D2400E1F88D /* tttboard.jpg in Resources */,
 				1E96095C1EDB5BBC00E1F88D /* Main.storyboard in Resources */,
+				1E9609851EDB5D1C00E1F88D /* tttx.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +340,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -333,7 +350,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -376,7 +397,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -384,7 +407,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -418,7 +445,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coopstroop.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -430,7 +458,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coopstroop.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -443,7 +472,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coopstroop.TicTacToeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTacToe.app/TicTacToe";
 			};
 			name = Debug;
@@ -457,7 +487,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coopstroop.TicTacToeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTacToe.app/TicTacToe";
 			};
 			name = Release;
@@ -470,7 +501,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coopstroop.TicTacToeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = TicTacToe;
 			};
 			name = Debug;
@@ -483,7 +515,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coopstroop.TicTacToeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = TicTacToe;
 			};
 			name = Release;
@@ -507,6 +540,7 @@
 				1E96097D1EDB5BBC00E1F88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E96097E1EDB5BBC00E1F88D /* Build configuration list for PBXNativeTarget "TicTacToeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +549,7 @@
 				1E9609801EDB5BBC00E1F88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E9609811EDB5BBC00E1F88D /* Build configuration list for PBXNativeTarget "TicTacToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +558,7 @@
 				1E9609831EDB5BBC00E1F88D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
